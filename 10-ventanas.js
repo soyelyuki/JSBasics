@@ -12,7 +12,7 @@
 
 var mi_resultado = prompt ("que edad tienes ? ", 18);  // pregunta, parametro por defecto  
 if( mi_resultado >= 18 ){
-      console.log("chupalo");
+      console.log("mas viejo ");
 }else{
-        console.log (" ya me tire ");
+        console.log (" ejale ");
 }
