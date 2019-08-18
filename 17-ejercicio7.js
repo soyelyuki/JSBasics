@@ -4,18 +4,13 @@
 
 var N = parseInt(prompt("ingrese numero ",1 )) ;
 
-
-for(var i =1; i <= 100; i++){
+for(var i =1; i <= 10; i++){
     document.write(i+" x "+N+" = "+(i*N)+ "<br/>");
 }
-
-/*
-for( var i = 1; i <= N; i++ ){
-    if (N % i == 0 ){
-    console.log(" pertenece a la tabla" + i);
-    }else{
-    console.log(" intentalo");
-
+// todas las tablas de multiplicar
+for(var c =1; c <= 15; c++){
+    document.write("<h1>Tabla del " +c+"</h1>");
+    for(var i =1; i <= 10; i++){
+    document.write(i+" x "+N+" = "+(i*N)+ "<br/>");
 }
 }
-*/
