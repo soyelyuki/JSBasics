@@ -11,6 +11,20 @@ var lenguajes = new Array("php","java","python","javascript","go","c++");
 document.write("<h1> lenguajes de programacion del 2018</h1><br/>");
 document.write("lenguajes")
 
+for(let lenguaje in lenguajes){
+    document.write("<li>"+lenguajes[lenguaje]+"</li>");
+}
+document.write("</ul>");
+
+//busquedas 
+
+var busqueda = lenguajes.find(function(lenguaje){
+    return lenguaje == "php";
+});
+console.log(busqueda);
+/*
+
+
 lenguajes.forEach((elemento, indice)=>{
     document.write("<li>"+(indice+1)+ "  - " +elemento+"</li>");
 });
